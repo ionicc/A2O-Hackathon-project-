@@ -1,0 +1,148 @@
+<resources>
+
+    <string name="app_name">A2O</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="circle">Material Circle</string>
+
+    <string name="image">Image</string>
+
+    <string name="fullname">Full Name</string>
+
+    <string name="email">Email Address</string>
+
+    <string name="password">Password</string>
+
+    <string name="bloodgroup">Blood Group</string>
+
+    <string name="mobile">Mobile Number</string>
+
+    <string name="login">LOGIN</string>
+
+    <string name="register">REGISTER</string>
+
+    <string name="submit">SUBMIT</string>
+
+    <string name="donate">DONATE</string>
+
+    <string name="request">REQUEST</string>
+
+    <string name="contact">Contact Hospital</string>
+
+    <string name="appointment">Book Appointment</string>
+
+    <string name="prefix">+91</string>
+
+    <string name="introoneheader">From A To O</string>
+
+    <string name="introonemain">Yep. Be It Any Blood Group You Want There. We Have It All. So You Can Totally Rely On Us.</string>
+
+    <string name="introtwoheader">Certified Doctors</string>
+
+    <string name="introtwomain">Checked. Tested. Verified. So That You Get The Best Outta Us.</string>
+
+    <string name="introthreeheader">100% Fresh</string>
+
+    <string name="introthreemain">We Keep Your Blood Fresh And Safe. In Accordance With The International Blood Standards. </string>
+
+    <string name="introfourheader">Wherever. Whenever.</string>
+
+    <string name="introfourmain">Mishap May Strike Anytime. Do Not Worry. We Work Round The Clock. More Power To You!</string>
+
+    <string name="verifywarning">Please Enter Your Phone Number. We Will Send A SMS For OTP Verification. Carrier Charges May Apply.</string>
+
+    <string name="otp">An OTP Has Been Sent To</string>
+
+    <string name="numberexample">9871495638</string>
+
+    <string name="disclaimer">For You To Donate Blood Voluntarily, We Must Verify You First. After Verification, You Will Be Able To Donate Blood Wherever And Whenever.</string>
+
+    <string name="agree">I Agree To The Terms.</string>
+
+    <string name="date">DATE</string>
+
+    <string name="time">TIME</string>
+
+    <string-array name="bloodgroups">
+
+        <item>Select</item>
+        <item>AB</item>
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+
+    </string-array>
+
+    <string-array name="convention">
+
+        <item>Select</item>
+        <item>+</item>
+        <item>-</item>
+
+    </string-array>
+
+    <string-array name="date">
+        <item>Date</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+
+    </string-array>
+
+    <string-array name="month">
+
+        <item>Month</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+
+    </string-array>
+
+
+    <string-array name="time">
+
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+
+    </string-array>
+
+
+    <string-array name="orientation">
+
+        <item>AM</item>
+        <item>PM</item>
+
+    </string-array>
+
+
+</resources>

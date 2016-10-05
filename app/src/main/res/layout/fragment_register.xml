@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey">
+
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonpanel"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/dialogcurved"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:background="@drawable/user"
+            android:contentDescription="@string/image"/>
+
+
+        <LinearLayout
+            android:id="@+id/credentials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:padding="15sp"
+                android:layout_marginTop="20sp"
+                android:hint="@string/fullname"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:inputType="text"
+                android:maxLength="50"/>
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:padding="15sp"
+                android:layout_marginTop="20sp"
+                android:hint="@string/email"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:inputType="textEmailAddress" />
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round"
+                android:padding="15sp"
+                android:layout_marginTop="20sp"
+                android:hint="@string/password"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:inputType="textPassword"
+                android:maxLength="50"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:layout_marginStart="10sp"
+                android:layout_marginEnd="10sp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Spinner
+                    android:id="@+id/bloodgroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round"
+                    android:padding="15sp"
+                    android:entries="@array/bloodgroups"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="20sp"/>
+
+
+                <Spinner
+                    android:id="@+id/convention"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round"
+                    android:padding="15sp"
+                    android:entries="@array/convention"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20sp"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttonpanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttonmaterial"
+        android:layout_margin="10sp">
+
+
+        <Button
+            android:id="@+id/registerbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/register"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
